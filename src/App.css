@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+
+.card{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 20px;
+  margin-bottom: 5px;
+  height: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.small-form {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* Space between form elements */
+}
+
+.input-field {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+  width: 200px; /* Adjust width as needed */
+  box-sizing: border-box;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
